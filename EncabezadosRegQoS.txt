@@ -1,0 +1,1 @@
+IMEI,Marca,Modelo,mOS,Exito,Cod. Error,Fecha, Hora,Operador,Tipo de red,Radiobase,Latitud,Longitud,Intensidad,Tasa de bajada,Tasa de subida,Tasa de perdida, RTTAvg, Jitter
