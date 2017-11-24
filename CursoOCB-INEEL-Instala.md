@@ -31,7 +31,7 @@ En este tutorial se asume que se tiene una computadora Windows 7.
 
 **1.-** Descargue en instale `git-bash` con todas las opciones por default. Lance el programa; verá una ventana como la siguiente:
 
-![Ventana git-bash](Imagenes/Instalacion/Inst-git.jpg)
+![Ventana git-bash](imagenes/Instalacion/Inst-git.jpg)
 
 **2.-** Elija dónde desea instalar las máquinas virtuales, por ejemplo, `fwTutorial`.  Desde la ventana de terminal ejecute los siguientes comandos:
 
