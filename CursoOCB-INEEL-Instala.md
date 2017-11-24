@@ -59,7 +59,7 @@ total 8
 -rw-r--r-- 1 fwuser 1049089 3632 nov 21 09:45 Vagrantfile
 
 ```
-**3.-** Si no lo ha hecho, instale VirtualBox desde [http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-Win.exe](http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-Win.exe).
+**3.-** Si no lo ha hecho, instale VirtualBox desde [http://download.virtualbox.org/virtualbox/5.1.30/VirtualBox-5.1.30-118389-Win.exe](http://download.virtualbox.org/virtualbox/5.1.30/VirtualBox-5.1.30-118389-Win.exe).
 
 **Si está utilizando Windows 10** también deberá agregar el `VM VirtualBox Extension Pack` desde [http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html#extpack](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html#extpack).  Descárguelo, ejecútelo y permita su instalación.
 
