@@ -61,7 +61,7 @@ total 8
 ```
 **3.-** Si no lo ha hecho, instale VirtualBox desde [http://download.virtualbox.org/virtualbox/5.1.30/VirtualBox-5.1.30-118389-Win.exe](http://download.virtualbox.org/virtualbox/5.1.30/VirtualBox-5.1.30-118389-Win.exe).
 
-**Si está utilizando Windows 10** también deberá agregar el `VM VirtualBox Extension Pack` desde [http://download.virtualbox.org/virtualbox/5.2.0/Oracle_VM_VirtualBox_Extension_Pack-5.2.0-118431.vbox-extpack](http://download.virtualbox.org/virtualbox/5.2.0/Oracle_VM_VirtualBox_Extension_Pack-5.2.0-118431.vbox-extpack).  Descárguelo, ejecútelo y permita su instalación.
+**Si está utilizando Windows 10** también deberá agregar el `VM VirtualBox Extension Pack` desde [http://download.virtualbox.org/virtualbox/5.1.30/Oracle_VM_VirtualBox_Extension_Pack-5.1.30-118389.vbox-extpack](http://download.virtualbox.org/virtualbox/5.1.30/Oracle_VM_VirtualBox_Extension_Pack-5.1.30-118389.vbox-extpack).  Descárguelo, ejecútelo y permita su instalación.
 
 **4.-** Instale Vagrant **Recuerde que debe instalar la versión 1.9.x**. La versión 1.9.0 se encuentra aquí: [https://releases.hashicorp.com/vagrant/1.9.0/vagrant_1.9.0.msi](https://releases.hashicorp.com/vagrant/1.9.0/vagrant_1.9.0.msi).
 
