@@ -96,13 +96,13 @@ Para poder interactuar con el OCB utilizaremos la herramienta *Insomnia*. Si lo 
 
 Crearemos en insomnia una carpeta llamada **Operaciones-Comunes**. En esta carpeta se guardarán todas las consultas que hagamos.
 
-!["Nueva carpeta insomnia"](Imagenes/Insomnia/In-01.png)
+!["Nueva carpeta insomnia"](imagenes/Insomnia/In-01.png)
 
 #### POST
 En primer lugar debemos enviar la representación de una entidad con el método **POST**:
 Comenzaremos por crear una nueva petición (New Request) en Insomnia:
 
-![](Imagenes/Insomnia/In-02.png)
+![](imagenes/Insomnia/In-02.png)
 
 El nombre sugerido para esta petición es **inserta-entidad**, el método que utilizaremos será **POST** y el cuerpo (body) será de tipo JSON.
 
@@ -131,7 +131,7 @@ En Insomnia, es posible duplicar la consulta anterior y renombrarla. Hágalo as�
 
 Para el método get,  sólo se especifica el URL, sin body ni Content-type. En nuestra primer consulta pediremos todas las entidades almacenadas en el OCB hasta ahora.  Para ello, el URL que se utiliza es: `http://localhost:1026/v2/entities`: 
 
-!["Insomnia obtén todas"](imagenes/Insomnia/In-GetAll.png)
+!["Insomnia obtén todas"](imagenes/Insomnia/In-GetAll.PNG)
 
 Al ejecutarlo se obtiene el siguiente resultado:
 
@@ -212,7 +212,7 @@ ___
 **EJERCICIO**.  Agregue una nueva consulta a Insomnia. Nómbrela obten-una-entidad y modifíquela para obtener únicamente la entidad Med025
 ___
 
-![Insomnia obten-una-entidad](imagenes/Insomnia/In-ObtenUna.png)
+![Insomnia obten-una-entidad](imagenes/Insomnia/In-ObtenUna.PNG)
 
 De forma similar, a partir de la versión 2 de NGSI es posible realizar consultas (u otros métodos como PUT y DELETE) a atributos de las entidades ampliando el URL:
 
@@ -305,7 +305,7 @@ Content-type text/plain
 
 En Insomnia, en la pestaña del cuerpo se especifica "Other" y en la de Header se especifica `Content-type  text/plain`.
 
-![Content-type text/plain](imagenes/Insomnia/In-CntType-text.png)
+![Content-type text/plain](imagenes/Insomnia/In-CntType-text.PNG)
 
 
 
@@ -528,7 +528,7 @@ export JAVA_HOME=/opt/jdk1.8.0_151
 
 Si el suscriptor se ejecutó correctamente, podrá accederlo desde un navegador en su computadora en la dirección `http://192.168.83.2:8080/#/notifications`
 
-![](Imagenes/Suscriptor/sus-01.png)
+![](imagenes/Suscriptor/sus-01.png)
 
 El registro de una suscripción se hace utilizando el método `POST`. En el cuerpo se especifica sobre qué entidades y qué atributos se harán las notificaciones, y sobre todo, con qué método y a qué URL enviar la ontificación.
 
@@ -597,7 +597,7 @@ http://127.0.0.1:1026/v2/entities/Med023/attrs/voltage/value
 ```
 Si todo ha funcionado correctamente, tendrá un nuevo mensaje:
 
-![](imagenes/Suscriptor/sus-03.png)
+![](imagenes/Suscriptor/sus-03.PNG)
 
 ## Datos geo-referenciados
 
