@@ -134,7 +134,7 @@ fiware-sdk:~
 
 Si todo se ha instalado correctamente, ya tiene una instancia de Orion Context Broker ejecutándose.  Para comprobarlo, lance un navegador (en su sistema operativo nativo) e invoque la página con el URL `127.0.0.1:1026/version`. Deberá ver lo siguiente:
 
-![Ventana OCB version](imagenes/Instalacion/Inst-version.JPG)
+![Ventana OCB version](imagenes/Instalacion/inst-version.JPG)
 
 Alternativamente, puede utilizar el comando curl desde la terminal git
 
@@ -220,7 +220,7 @@ export JAVA_HOME=/opt/jdk1.8.0_151
 
 Puede verificar que el servidor está esperando notificaciones, accediendo al URL `http://192.168.83.2:8080` desde un navegador en su computadora. Se desplegará la siguiente página:
 
-![](Imagenes/Suscriptor/sus-01.png)
+!["Imagen Página suscriptor"](imagenes/Suscriptor/sus-01.png)
 
 
 Detenga el suscriptor, salga de la máquina virtual y apáguela.
