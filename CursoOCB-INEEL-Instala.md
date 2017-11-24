@@ -134,7 +134,7 @@ fiware-sdk:~
 
 Si todo se ha instalado correctamente, ya tiene una instancia de Orion Context Broker ejecutándose.  Para comprobarlo, lance un navegador (en su sistema operativo nativo) e invoque la página con el URL `127.0.0.1:1026/version`. Deberá ver lo siguiente:
 
-![Ventana OCB version](Imagenes/Instalacion/Inst-version.jpg)
+![Ventana OCB version](imagenes/Instalacion/Inst-version.JPG)
 
 Alternativamente, puede utilizar el comando curl desde la terminal git
 
