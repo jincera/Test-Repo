@@ -211,15 +211,17 @@ export JAVA_HOME=/opt/jdk1.8.0_151
 # Iniciar suscriptor
 /opt/maven/bin/mvn -f fiware-orion-subscriber/pom.xml spring-boot:run
 ...
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13:31 h
-[INFO] Finished at: 2017-11-23T15:32:24+00:00
-[INFO] Final Memory: 20M/48M
-[INFO] ------------------------------------------------------------------------
+
+2017-11-24 19:16:13.038  INFO 2480 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-24 19:16:13.050  INFO 2480 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+
 ```
-**¡Muy bien!**  El ambiente está listo para poder realizar el tutorial.
+**¡Muy bien!**  Si ha recibido el mensaje de que el Servent se ha inicializado, el ambiente está listo para poder realizar el tutorial.
+
+Puede verificar que el servidor está esperando notificaciones, accediendo al URL `http://192.168.83.2:8080` desde un navegador en su computadora. Se desplegará la siguiente página:
+
+![](Imagenes/Suscriptor/sus-01.png)
+
 
 Detenga el suscriptor, salga de la máquina virtual y apáguela.
 
