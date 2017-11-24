@@ -65,7 +65,9 @@ total 8
 
 **4.-** Instale Vagrant **Recuerde que debe instalar la versión 1.9.x**. La versión 1.9.0 se encuentra aquí: [https://releases.hashicorp.com/vagrant/1.9.0/vagrant_1.9.0.msi](https://releases.hashicorp.com/vagrant/1.9.0/vagrant_1.9.0.msi).
 
-Desde la ventana de git, confirme que vagrant se ha instalado y que es la versión correcta.
+La instalación de vagrant le pedirá reiniciar su computadora.  Hágalo.
+
+Abra nuevamente una terminal de git y confirme que vagrant se ha instalado y que es la versión correcta con el comando `vagrant --version`.
 
 !["Ventana vagrant version"](imagenes/Instalacion/inst-vagrant.JPG)
 
