@@ -15,9 +15,8 @@ En Fiware, para que las aplicaciones puedan obtener esa información, un compone
 **NOTA: Se sabe de una incompatibilidad entre la última versión de Vagrant y la de VirtualBox. Se debe instalar Vagrant 1.9.x con una versión de VirtualBox 4.0 a 5.1.x**
 
 * [VirtualBox](https://www.virtualbox.org/)
-* [SSH](https://www.openssh.com/)
 * [Vagrant 1.9.0](https://www.vagrantup.com/)
-* [Git](https://git-scm.com/)
+* [Git-scm](https://git-scm.com/)
 * [Insomnia](https://insomnia.rest/) (o cualquier cliente REST). Una herramienta útil puede ser [postman](https://www.getpostman.com/)
 
 El OCB está configurado en un contenedor dentro de una máquina virtual con sistema operativo CentOS. Para evitar problemas de compatibilidad entre versiones tanto del OCB como de CentOS, utilizaremos `Vagrant` y, dentro de la máquina virtual, `docker`. 
