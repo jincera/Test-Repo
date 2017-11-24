@@ -67,7 +67,7 @@ total 8
 
 Desde la ventana de git, confirme que vagrant se ha instalado y que es la versión correcta.
 
-![Ventana vagrant version](Imagenes/Instalacion/Inst-vagrant.jpg)
+!["Ventana vagrant version"](Imagenes/Instalacion/Inst-vagrant.jpg)
 
 **5.-** Vamos a lanzar vagrant para instalar la máquina virtual con CentOS.  Esta operación puede tomar algunos minutos pues además del sistema operativo, se instalan varios paquetes adicionales.
 
