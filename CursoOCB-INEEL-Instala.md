@@ -31,7 +31,7 @@ En este tutorial se asume que se tiene una computadora Windows 7.
 
 **1.-** Descargue en instale `git-bash` con todas las opciones por default. Lance el programa; verá una ventana como la siguiente:
 
-![Ventana git-bash](imagenes/Instalacion/Inst-git.jpg)
+!["Ventana git-bash"](imagenes/Instalacion/Inst-git.JPG)
 
 **2.-** Elija dónde desea instalar las máquinas virtuales, por ejemplo, `fwTutorial`.  Desde la ventana de terminal ejecute los siguientes comandos:
 
@@ -67,7 +67,7 @@ total 8
 
 Desde la ventana de git, confirme que vagrant se ha instalado y que es la versión correcta.
 
-!["Ventana vagrant version"](imagenes/Instalacion/inst-vagrant.jpg)
+!["Ventana vagrant version"](imagenes/Instalacion/inst-vagrant.JPG)
 
 **5.-** Vamos a lanzar vagrant para instalar la máquina virtual con CentOS.  Esta operación puede tomar algunos minutos pues además del sistema operativo, se instalan varios paquetes adicionales.
 
