@@ -366,77 +366,77 @@ Body:
 {
 	"actionType":"APPEND",
 	"entities": [
-		{
-			"id": "Med01",
-      "type": "LineMeter",
-      "voltage":119.1956,
-      "current":1.9081,
-      "frequency":59.7123
+     {
+	"id": "Med01",
+      	"type": "LineMeter",
+      	"voltage":119.1956,
+      	"current":1.9081,
+      	"frequency":59.7123
      },
-	 {
-      "id": "Med02",
-      "type": "LineMeter",
-      "voltage":120.8887,
-      "current":2.2721,
-      "frequency":60.0207
+     {
+        "id": "Med02",
+        "type": "LineMeter",
+        "voltage":120.8887,
+        "current":2.2721,
+        "frequency":60.0207
      },
-	 {
-      "id": "Med03",
-      "type": "LineMeter",
-      "voltage":120.7730,
-      "current":2.0711,
-      "frequency":60.0589
+     {
+        "id": "Med03",
+        "type": "LineMeter",
+        "voltage":120.7730,
+        "current":2.0711,
+        "frequency":60.0589
      },
-	 {
-      "id": "Med04",
-      "type": "LineMeter",
-      "voltage":120.3477,
-      "current":2.1015,
-      "frequency":59.9456
-	 },
-	 {
-      "id": "Med05",
-      "type": "LineMeter",
-      "voltage":119.9467,
-      "current":2.1935,
-      "frequency":59.6615
+     {
+       "id": "Med04",
+       "type": "LineMeter",
+       "voltage":120.3477,
+       "current":2.1015,
+       "frequency":59.9456
      },
-	 {
-			"id": "Med06",
-      "type": "LineMeter",
-      "voltage":118.8686,
-      "current":1.9050,
-      "frequency":59.9421
+     {
+       "id": "Med05",
+        "type": "LineMeter",
+        "voltage":119.9467,
+        "current":2.1935,
+        "frequency":59.6615
      },
-	 {
-      "id": "Med07",
-      "type": "LineMeter",
-      "voltage":120.0224,
-      "current":2.0522,
-      "frequency":59.9396
+     {
+        "id": "Med06",
+        "type": "LineMeter",
+        "voltage":118.8686,
+        "current":1.9050,
+        "frequency":59.9421
      },
-	 {
-      "id": "Med08",
-      "type": "LineMeter",
-      "voltage":118.8943,
-      "current":2.1845,
-      "frequency":59.7099
+     {
+       "id": "Med07",
+       "type": "LineMeter",
+       "voltage":120.0224,
+       "current":2.0522,
+       "frequency":59.9396
      },
-	 {
-      "id": "Med09",
-      "type": "LineMeter",
-      "voltage":120.4780,
-      "current":2.0130,
-      "frequency":60.3876
-	 },
-	 {
-      "id": "Med10",
-      "type": "LineMeter",
-      "voltage":120.228,
-      "current":2.225,
-      "frequency":59.8962
+     {
+       "id": "Med08",
+       "type": "LineMeter",
+       "voltage":118.8943,
+       "current":2.1845,
+       "frequency":59.7099
+     },
+     {
+       "id": "Med09",
+       "type": "LineMeter",
+       "voltage":120.4780,
+       "current":2.0130,
+       "frequency":60.3876
+     },
+     {
+       "id": "Med10",
+       "type": "LineMeter",
+       "voltage":120.228,
+       "current":2.225,
+       "frequency":59.8962
      }
-	]
+  ]
 }
 
 
