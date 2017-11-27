@@ -504,7 +504,7 @@ Se pueden utilizar expresiones regulares con el parámetro `idPattern`. Por ejem
 
 ## Suscrpitores
 
-Hasta el momento hemos simulado la manera en la que los productores de información de contexto información al OCB y cómo se puede obtener información de manera síncrona haciendo solicitudes REST. 
+Hasta el momento hemos simulado la manera en la que los productores de información de contexto enviarían datos al OCB y cómo se puede obtener información de manera síncrona haciendo solicitudes REST. 
 
 En un entorno más realista, los "consumidores", es decir, los procesadores de la información que llega al OCB deben ser notificados cuando algún dato que les es de interés ha llegado al OCB.  Es decir, debe permitirse que la comunicación entre el OCB y los consumidores, pueda hacerse de manera asíncrona.
 
