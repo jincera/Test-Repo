@@ -70,7 +70,8 @@ Abra nuevamente una terminal de git y confirme que vagrant se ha instalado y que
 
 !["Ventana vagrant version"](imagenes/Instalacion/inst-vagrant.JPG)
 
-**5.-** Vamos a lanzar vagrant para instalar la máquina virtual con CentOS.  Esta operación puede tomar algunos minutos pues además del sistema operativo, se instalan varios paquetes adicionales.
+
+**5.-** Vamos a lanzar Vagrant para instalar la máquina virtual con CentOS.  Esta operación puede tomar algunos minutos pues además del sistema operativo, se instalan varios paquetes adicionales.
 
 ```bash
 # Asegúrese de que se encuentra en la carpeta de vm-fiware-orion
@@ -85,6 +86,30 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default:
 ==> default: Complete!
 ```
+---
+** Montar las Guest Additions ** (Muchas gracias a Raúl García Mendoza por agregar esta sección).
+
+- Aún si no se desplegó el mensaje ==> default: Complete!, la máquina virtual se ha creado con el nombre `fiware-sdk`.  Deténgala dando click derecho/cerrar/apagar desde el administrador de VirtualBox:
+
+![](imagenes/Instalacion/vbox-fiware-on.PNG)
+
+- Dar clic derecho en la máquina virtual y seleccionar Configuración/Almacenamiento y seleccionar "Agregar Unidad Optica"/"Dejar Vacio"
+
+![](imagenes/Instalacion/agrega-optica.PNG)
+
+- Iniciar la máquina virtual desde el administrador de Virtual Box. Seleccionar Dispositivos/Insertar imagen CD de las "Guest Additions"
+- 
+![](imagenes/Instalacion/vm-dispositivos.PNG)
+
+- Cerrar la máquina virtual **Guardando** el estado. (Dar CTRL-V en el administrador de Virtual Box)
+
+- Regresar a la ventana de git bash y ejecutar los comandos:
+
+```bash
+$ vagrant up
+$ vagrant provision
+```
+---
 
 Ahora entramos a la máquina virtual con el comando:
 
