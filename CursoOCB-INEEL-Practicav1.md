@@ -1,10 +1,10 @@
 # Tutorial Fiware - Orion Context Broker
 
-##Introducción
+## Introducción
 
 El objetivo de este tutorial es dar una idea básica del flujo de datos típico al implementar aplicaciones inteligentes que utilicen información obtenida de diferentes medios como sensores, usuarios de dispositivos móviles, etcétera. 
 
-![](Imagenes/Intro/intro1.png)
+![](imagenes/Intro/intro1.png)
 
 En Fiware, para que las aplicaciones puedan obtener esa información, un componente esencial es el Orion Context Broker (OCB). Orion Context Broker es una implementación de la API NGSI (*Next Generation Service Interface*) que permite manejar y asegurar la disponibilidad de la información obtenida del contexto donde se encuentra el objeto (el sensor). La versión que se utiliza actualmente es **NGSIv2**.
 
@@ -13,7 +13,7 @@ La especificación completa de NGSIv2 se encuentra aquí: [http://fiware.github.
 
 La interacción típica en la plataforma Fiware (como en la mayoría de las plataformas para Internet de las Cosas) consta de tres elementos: el productor de información de contexto (por ejemplo, un sensor), un intermediario, que en nuestro caso es el OCB, y el consumidor de esa información.
 
-![](Imagenes/Intro/intro2.png)
+![](imagenes/Intro/intro2.png)
 
 El productor de información de contexto se encargará de crear nuevas entidades o de actualizar las entidades ya existentes. Típicamente accede al OCB a través del **puerto 1026**.
 
