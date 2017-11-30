@@ -643,7 +643,7 @@ Por ejemplo, la entidad INEEL se podría representar de la siguiente forma:
 	}
 }
 ```
-![](imagenes/GeoRef/coord-ineel.jpg)
+![](imagenes/GeoRef/coord-ineel.JPG)
 
 Para este tutorial, hemos definido una serie de puntos geo-referenciados dentro de la zona de Coyoacán en la Ciudad de México.  Simulan ser micro generadores de energías limpias, ya sea éolicos y fotovoltaicos.
 
@@ -937,7 +937,7 @@ Con el método `POST` y la operación `update`, cargue las siguientes entidades 
 ```
 En la siguiente figura se muestran los puntos simulados en azúu, junto con algunos puntos de interés en naranja.
 
-![](imagenes/GeoRef/mapa1.PNG)
+![](imagenes/GeoRef/mapa1.png)
 
 Ahora buscaremos lugares de interés con relación a un objeto geográfico.
 
@@ -951,7 +951,7 @@ Body: Vacío
 ```
 Se están buscando las entidades tipo "microGenerator" que estén como máximo 800 metros del punto especificado. El resultado son los siguientes seis puntos:
 
-![](imagenes/GeoRef/PtosInCircle.PNG)
+![](imagenes/GeoRef/PtosInCircle.png)
 
 ```bash
 [
@@ -1096,7 +1096,7 @@ BODY:
 	}
 ]
 ```
-![](imagenes/GeoRef/PtosInPolygon.PNG)
+![](imagenes/GeoRef/PtosInPolygon.png)
 
 
 **¡Felicidades!** Ahora se ha familiarizado con las principales funcionalidades del Componente Orion Context Broker.
