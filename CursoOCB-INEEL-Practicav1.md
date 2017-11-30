@@ -558,26 +558,26 @@ Nuestro suscriptor quedará de la siguiente manera:
       "attrs": [
         "voltage"
       ],
-			"expression": {
-				"q": "voltage > 122.0"
-			}
+      "expression": {
+	"q": "voltage > 122.0"
+      }
     }
   },
   "notification": {
     "httpCustom": {
       "url": "http://192.168.83.2:8080/notifications",
-			"headers": {
-				"Content-type":"text/plain"
-			},
-			"method":"POST",
-			"qs":{
-				"type":"${type}"
-			},
-			"payload":"Warning. Voltage in meter ${id} is ${voltage}"
+      "headers": {
+          "Content-type":"text/plain"
+      },
+      "method":"POST",
+      "qs":{
+	 "type":"${type}"
+       },
+       "payload":"Warning. Voltage in meter ${id} is ${voltage}"
     },
     "attrs": [
-			"id",
-      "voltage"
+       "id",
+       "voltage"
     ]
   },
   "expires": "2040-01-01T14:00:00.00Z",
