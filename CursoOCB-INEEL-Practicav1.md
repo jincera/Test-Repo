@@ -328,7 +328,7 @@ Para probar este método, creemos una nueva entidad:
   "type":"prueba",
   "temp":{
     "value":24,
-    "type":"integer",
+    "type":"integer"
   },
   "NumGente":{
     "type":"integer",
