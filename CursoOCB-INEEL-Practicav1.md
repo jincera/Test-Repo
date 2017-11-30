@@ -310,7 +310,9 @@ En Insomnia, en la pestaña del cuerpo se especifica "Other" y en la de Header s
 
 
 
-Es posible borrar atributos e identidades.
+    
+### Delete
+El método DELETE permite eliminar entidades y atributos.
 
 Para borrar un atributo se utiliza el comando Delete:
 
@@ -318,9 +320,6 @@ Para borrar un atributo se utiliza el comando Delete:
 Para borrar una se utiliza la siguiente expresión:
 
     delete http://url:1026/v2/entities/{id}
-    
-### Delete
-El método DELETE permite eliminar entidades y atributos.
 Para probar este método, creemos una nueva entidad:
 
 ```bash
