@@ -1050,7 +1050,10 @@ En el siguiente ejemplo, haremos una geo-cerca: Buscaremos los micro-generadores
 ```bash
 Método: GET
 URL: http://127.0.0.1:1026/v2/entities?type=microGenerator&georel=coveredBy&geometry=polygon&coords=19.3538,-99.17208;19.35544, -99.16264;19.34878, -99.16248;19.3538,-99.17208
-BODY:
+```
+
+El resultado es el siguiente:
+```bash
 [
 	{
 		"id": "medMG2",
