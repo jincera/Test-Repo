@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Toma datos de la entrada <key\tval> y los procesa
 # Como val solo es "1" para la ocurrencia de un candidato,
@@ -21,7 +21,7 @@ for line in sys.stdin:
     esteCandidato, esteValor  = DataIn
 
     if candidatoAnt and candidatoAnt != esteCandidato:
-        print candidatoAnt, "\t", Acumulados
+        print (candidatoAnt, "\t", Acumulados)
         candidatoAnt = esteCandidato;
         Acumulados = 0
 
@@ -29,5 +29,5 @@ for line in sys.stdin:
     Acumulados += 1
 
 if candidatoAnt != None:
-    print candidatoAnt, "\t", Acumulados
+    print (candidatoAnt, "\t", Acumulados)
 
