@@ -12,7 +12,7 @@ for line in sys.stdin:
     esteMOS, esteValor  = DataIn
 
     if MOSAnt and MOSAnt!= esteMOS:
-        print MOSAnt, "\t", acumulados
+        print (MOSAnt, "\t", acumulados)
         MOSAnt = esteMOS;
         acumulados = 0
 
@@ -20,4 +20,4 @@ for line in sys.stdin:
     acumulados += 1
 
 if MOSAnt!= None:
-    print MOSAnt, "\t", acumulados
+    print (MOSAnt, "\t", acumulados)
