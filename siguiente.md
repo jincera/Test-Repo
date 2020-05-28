@@ -6,7 +6,7 @@
 
 ### 1. Hadoop
 
-Conéctese a nuestro servidor de Hadoop (148.205.176.167).  En la carpeta `/home/jincera/MaterialExParcial` encontrará el archivo `u2.data`.  Es un archivo con 100,000 evaluaciones de películas de cine.
+Conéctese a nuestro servidor de Hadoop.  En la carpeta `/home/jincera/MaterialExParcial` encontrará el archivo `u2.data`.  Es un archivo con 100,000 evaluaciones de películas de cine.
 
 1. Cree una nueva carpeta en su directorio local llamada ExParcial.
 2. **Cambie los permisos para que sólo usted pueda accederla** (`chmod 700 ExParcial`)
