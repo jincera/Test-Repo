@@ -1,17 +1,17 @@
 OwidDataCovidModif
-	- País
+	- PaÃ­s
 	- Fecha
 	- Nuevos casos
 	- Nuevos fallecimientos
-	- Nuevos casos por millón
-	- Nuevos fallecimientos por millón
+	- Nuevos casos por millÃ³n
+	- Nuevos fallecimientos por millÃ³n
 	- Nuevas pruebas
 	- Nuevas pruebas por millar
 
 CaracPaisCovid
 
-	- País
-	- Población
+	- PaÃ­s
+	- PoblaciÃ³n
 	- Densidad poblacional
 	- GDP
 	- Prevalencia Diabetes
